@@ -1,0 +1,102 @@
+CRITICAL - 2025-10-08 02:24:21 --> Error: Call to a member function connect() on null
+[Method: GET, Route: ConnectionTest/test]
+in APPPATH\Controllers\ConnectionTest.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConnectionTest->test()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-10-08 02:25:12 --> CodeIgniter\Exceptions\InvalidArgumentException: "ffe" is not a valid database connection group.
+[Method: GET, Route: ConnectionTest/test]
+in SYSTEMPATH\Database\Config.php on line 72.
+ 1 APPPATH\Controllers\ConnectionTest.php(15): CodeIgniter\Database\Config::connect()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ConnectionTest->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-10-08 02:26:00 --> Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+[Method: GET, Route: ConnectionTest/test]
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 131.
+ 1 APPPATH\Controllers\ConnectionTest.php(30): CodeIgniter\Database\SQLSRV\Connection->connect()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConnectionTest->test()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-10-08 02:26:02 --> Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+[Method: GET, Route: ConnectionTest/test]
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 131.
+ 1 APPPATH\Controllers\ConnectionTest.php(30): CodeIgniter\Database\SQLSRV\Connection->connect()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConnectionTest->test()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-10-08 02:26:32 --> CodeIgniter\Exceptions\InvalidArgumentException: "ffe" is not a valid database connection group.
+[Method: GET, Route: ConnectionTest/test]
+in SYSTEMPATH\Database\Config.php on line 72.
+ 1 APPPATH\Controllers\ConnectionTest.php(15): CodeIgniter\Database\Config::connect()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ConnectionTest->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-10-08 02:26:34 --> CodeIgniter\Exceptions\InvalidArgumentException: "ffe" is not a valid database connection group.
+[Method: GET, Route: ConnectionTest/test]
+in SYSTEMPATH\Database\Config.php on line 72.
+ 1 APPPATH\Controllers\ConnectionTest.php(15): CodeIgniter\Database\Config::connect()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ConnectionTest->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-10-08 02:26:38 --> CodeIgniter\Exceptions\InvalidArgumentException: "ffe" is not a valid database connection group.
+[Method: GET, Route: ConnectionTest]
+in SYSTEMPATH\Database\Config.php on line 72.
+ 1 APPPATH\Controllers\ConnectionTest.php(15): CodeIgniter\Database\Config::connect()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ConnectionTest->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-10-08 02:26:40 --> CodeIgniter\Exceptions\InvalidArgumentException: "ffe" is not a valid database connection group.
+[Method: GET, Route: ConnectionTest]
+in SYSTEMPATH\Database\Config.php on line 72.
+ 1 APPPATH\Controllers\ConnectionTest.php(15): CodeIgniter\Database\Config::connect()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ConnectionTest->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+DEBUG - 2025-10-08 02:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 02:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 02:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 02:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 03:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 03:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 03:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 03:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 03:19:22 --> saveLeads Payload: {"appKey":"9dcc0f75-0305-48bf-a2e2-97f9f2c21545","action":"INSERT_LEADS","data":{"firstName":"Testing IT","lastName":null,"province":null,"city":null,"barangay":null,"address":null,"mobileNo":"09976151373","model":"LAMBRETTA V200 MONOTONE - XD20W3-EU","downpayment":null,"inquiryDate":"2025-10-08 03:19:22"}}
+DEBUG - 2025-10-08 03:19:22 --> saveLeads Response: {"message":"SUCCESS","statusCode":"2000"}
+DEBUG - 2025-10-08 03:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 03:21:48 --> saveLeads Payload: {"appKey":"9dcc0f75-0305-48bf-a2e2-97f9f2c21545","action":"INSERT_LEADS","data":{"firstName":"Testing IT","lastName":null,"province":null,"city":null,"barangay":null,"address":null,"mobileNo":"09976151373","model":"LAM-V200-S -VXN - LAM-V200-S -VXN","downpayment":null,"inquiryDate":"2025-10-08 03:21:48"}}
+DEBUG - 2025-10-08 03:21:48 --> saveLeads Response: {"message":"SUCCESS","statusCode":"2000"}
+DEBUG - 2025-10-08 03:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 03:23:07 --> saveLeads Payload: {"appKey":"9dcc0f75-0305-48bf-a2e2-97f9f2c21545","action":"INSERT_LEADS","data":{"firstName":"Testing IT","lastName":null,"province":null,"city":null,"barangay":null,"address":null,"mobileNo":"09976151373","model":"LAM-V200-S -VXN - LAM-V200-S -VXN","downpayment":null,"inquiryDate":null}}
+DEBUG - 2025-10-08 03:23:07 --> saveLeads Response: {"message":"SUCCESS","statusCode":"2000"}
+DEBUG - 2025-10-08 03:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 03:26:19 --> saveLeads Payload: {"appKey":"9dcc0f75-0305-48bf-a2e2-97f9f2c21545","action":"INSERT_LEADS","data":{"firstName":"Testing IT","lastName":null,"province":null,"city":null,"barangay":null,"address":null,"mobileNo":"09976151373","model":"LAMBRETTA V200 SPECIAL-FLEX FENDER - LAM0006","downpayment":null,"inquiryDate":"2025-10-08 03:26:01"}}
+DEBUG - 2025-10-08 03:26:19 --> saveLeads Response: {"message":"SUCCESS","statusCode":"2000"}
+DEBUG - 2025-10-08 03:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-08 03:26:20 --> saveLeads Payload: {"appKey":"9dcc0f75-0305-48bf-a2e2-97f9f2c21545","action":"INSERT_LEADS","data":{"firstName":"Testing IT","lastName":null,"province":null,"city":null,"barangay":null,"address":null,"mobileNo":"09976151373","model":"LAMBRETTA V50 SPECIAL-FIXED FENDER - LAM0001","downpayment":null,"inquiryDate":"2025-10-08 03:26:20"}}
+DEBUG - 2025-10-08 03:26:20 --> saveLeads Response: {"message":"SUCCESS","statusCode":"2000"}
+DEBUG - 2025-10-08 07:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

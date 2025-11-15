@@ -1,0 +1,54 @@
+
+  
+  /* Game Container Styling */
+  .explore-flappy-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .explore-flappy-container .title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  
+  #flappy {
+    background-color: #70c5ce;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    border: 4px solid #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Pipe Animation for Smooth Movement */
+  @keyframes pipeMove {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  #flappy {
+    width: 400px;
+    height: 600px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    #flappy {
+      width: 280px;
+      height: 420px;
+    }
+    .title {
+      font-size: 2rem;
+    }
+  }
+  
